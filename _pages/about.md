@@ -7,7 +7,7 @@ subtitle: <a href='https://yusp.com', target='_blank'>Gravity R&D, a Taboola Com
 profile:
   align: right
   image: hidasi_balazs.png
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info:
 
 news: false  # includes a list of news items
