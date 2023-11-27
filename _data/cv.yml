@@ -2,96 +2,139 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Balázs Hidasi
+    - name: Short summary
+      value: Research scientist working on the field of machine learning with 15+ years of experience in designing algorithms. Spent most of his career in the intersection of science and industry, researching recommender systems and algorithms.
 
-- title: Education
-  type: time_table
+- title: Scientific profile
+  type: nested_list
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Overview of main research topics 
+      items: 
+        - Counterfactual evaluation (2023 - ongoing)
+        - Evaluation of recommender systems (2022 - ongoing)
+        - Deep learning for recommender systems (2015 – ongoing) 
+        - Context-aware factorization methods on implicit feedback data (2011 – 2015) 
+        - Time series classification (2008 – 2011) 
+    - title: Participation in the scientific community 
+      items:
+        - Regular presenter at scientific conferences and meetups.  
+        - Peer reviewer for scientific conferences (e.g. RecSys, KDD, UMAP, WSDM, etc.) and journals. 
+        - Main organizer of the Deep Learning for Recommender Systems (DLRS) workshop series (2016-2018). 
+        - Co-organizer and recurring presenter of the Budapest Recommender Systems Meetup (2016-2017). 
+    - title: Tutorials, talks, teaching
+      items:
+        - Mentoring / knowledge dissemination in the company.
+        - Lecture on recommender systems at KÜRT Academy (2018 - 2022, one presentation semiannually) 
+        - RecSys Summer School 2017 - Deep Learning for Recommender Systems (August 2017) 
+        - Co-organizer of the tutorial on deep learning for recommender systems at RecSys2017 (August 2017) 
+        - Context-aware recommendations at the summer school of the University of Szeged (24 July 2014) 
+        - Research presentation to fellow researchers at the Technical University of Delft (11 April 2014) 
+        - Lectures on recommender systems at the Budapest University of Technology and Economics (2011-2016) 
+
+- title: Skills
+  type: list
+  contents:
+    - <strong>Research:</strong> deep  learning  |  recommender  systems  |  recurrent  neural  networks  |  tensor  and  matrix  factorization  | collaborative  filtering  |  implicit  feedback  |  context-awareness  |  counterfactual  learning  |  reinforcement learning | algorithm design | machine learning | generative AI
+    - <strong>Programing / technology:</strong> python | scipy stack (numpy, pandas, scipy, sklearn, etc.) | Theano | PyTorch | Tensorflow | basics of JAX | Java | C++ | CUDA | SQL | git  
+    - <strong>Languages:</strong> Hungarian (native) | English (full professional proficiency) | German (elementary proficiency) 
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: 
+      institution: Gravity R&D, a Taboola Company
+      year: 2022.07 -
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - After the acquisition by Taboola, my main objective is to figure out (1) the best way of co-operation between my team of 3 machine learning researchers and engineers and the company's algorithms department and other teams; (2) the best way to make impact in this new setting.
+        - title: Highlights of my team's contributions include
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - (a) Getting back to publishing scientific work after a few years of hiatus.
+            - (b) By extending our production deep learning framework and improving Gravity's CTR/CVR prediction algorithms, we achieved ~10%+10% improvement in key metrics.
+            - (c) Designing and productionizing an innovative solution for e-commerce creative generation based on generative AI technology that increases key metrics by ~15%.
+            - (d) Providing machine learning expertise whereever it is needed.
+
+    - title: Head of Research
+      institution: Gravity Research and Development
+      year: 2015.01 - 2022.07
       description:
-        - Description 1.
-        - Description 2.
+        - My role as Head of Research was to oversee the research efforts of the company, as well as to conduct my own research. I was also responsible for providing machine learning expertise to any of the ongoing projects of the company.
+        - title: Highlights of my work are
+          contents:
+            - (a) Creating the GRU4Rec algorithm (family) that improved upon our previous solution by 10-20% in the revenue through recommendations.
+            - (b) Laying down the basics of our CTR/CVR prediction framework that contributed to the success of our co-operation with Taboola that eventually led to the acquisition of Gravity R&D by Taboola.
+            - (c) Maintaining and increasing the company's renown in the scientific community via high quality published research, event organization, tutorials, and presenting at meetups and other invited talks.
+            - (d) Optimizing off-the-shelf deep learning frameworks with custom CUDA operators achieving up to 100x speed up for certain operations.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Leader of the Deep Learning Team
+      institution: Gravity Research and Development
+      year: 2021.01 - 2022.07
       description:
+        - My role was to build up and lead a new team focusing on improving our deep learning based recommender solutions.
+        - title: I built and managed a team of 2 machine learning engineers.
+          contents:
+            - My team completely overhauled our production deep learning training and inference framework, improving its flexibility, increasing its efficiency, and extending its feature set.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Leader of the Data Mining Team
+      institution: Gravity Research and Development
+      year: 2015.01 - 2020.01
+      description:
+        - My role, as the leader of the data science team, was to oversee all data science related tasks in the company.
+        - title: I built and managed a team of 3 data scientists. My team
+          contents:
+            - (a) applied my research results in the production system
+            - (b) significantly improved data infrastructure of the company
+            - (c) performed fine tuning during POCs, so that the company has never lost a single A/B test against its competitors
+            - Beside these achievements, we upheld a healthy work-life balance in the team and that all members of my team enjoyed their time spent there.
 
-- title: Open Source Projects
+    - title: Data Mining Researcher
+      institution: Gravity Research and Development
+      year: 2010.01 - 2015.01
+      description:
+        - My  main  responsibilities,  as  a  data  mining  researcher,  were  researching  new  recommender  algorithms, putting algorithms into production, analyzing user behavior data, and fine tuning our recommendation logic.
+        - Researched  context-aware  factorization  methods  for implicit feedback data.
+        - Core  member  of  the  EU  FP7  funded  CrowdRec  research  project  (2013-2016).
+
+    - title: Visiting Researcher
+      institution: Telefónica I+D
+      year: 2015.06 - 2015.09
+      description:
+        - Research collaboration between Gravity R&D & Telefónica I+D in the CrowdRec project.
+        - Laid the foundations of GRU4Rec.
+
+    - title: Individual Researcher
+      institution: DmLab, TMIT, BME-VIK
+      year: 2008.01 - 2011.09
+      description:
+        - Working on the ShiftTree algorithm.
+        - I was affiliated with the university research group, DmLab.
+
+- title: Education
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: PhD candidate
+      institution: Budapest University of Technology and Economics, Budapest, Hungary
+      year: 2014.09 - 2016.06
+      description:
+        - Data Science and Content Technologies Laboratory  (DCLab)
+        - Summa cum laude Ph.D. (30 June 2016)
+    - title: PhD studies
+      institution: Budapest University of Technology and Economics, Budapest, Hungary
+      year: 2011.09 - 2014.09
+      description:
+        - Computer Sciences Doctorate School
+        - Intelligent Systems Group
+    - title: MSc
+      institution: Budapest University of Technology and Economics, Budapest, Hungary
+      year: 2009.02 - 2011.07
+      description:
+        - Faculty of Electrical Engineering and Informatics
+        - Conputer Science and Engineering
+        - Graduated with highest honors (21 June 2011) 
+    - title: BSc
+      institution: Budapest University of Technology and Economics, Budapest, Hungary
+      year: 2005.09 - 2009.02
+      description:
+        - Faculty of Electrical Engineering and Informatics
+        - Conputer Science and Engineering
+        - Graduated with highest honors (08 January 2009) 

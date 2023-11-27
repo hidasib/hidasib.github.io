@@ -1,12 +1,6 @@
-github_users:
-  - torvalds
-  - alshedivat
-
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - hidasib/GRU4Rec
+  - hidasib/GRU4Rec_PyTorch_Official
+  - hidasib/GRU4Rec_Tensorflow_Official
+  - hidasib/gru4rec_third_party_comparison
+  - hidasib/recsys_eval_flaws

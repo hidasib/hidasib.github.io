@@ -441,6 +441,10 @@ footer.sticky-bottom {
     background-color: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
 
+    .card-title {
+      color: var(--global-theme-color);
+    }
+
     .list-group-item {
       background-color: inherit;
       border-color: var(--global-divider-color);
@@ -608,7 +612,7 @@ footer.sticky-bottom {
 
   .grid-sizer,
   .grid-item {
-    width: 250px;
+    width: 350px;
     margin-bottom: 10px;
   }
 
@@ -645,7 +649,7 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
+    color: var(--global-theme-color);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;

@@ -2,10 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://yusp.com', target='_blank'>Gravity R&D, a Taboola Company</a>
+subtitle: 
 
 profile:
-  align: right
+  align: left
   image: hidasi_balazs.png
   image_circular: true # crops the image to make it circular
   more_info:
@@ -16,8 +16,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a research scientist working on the field of machine learning. I have 15+ years of experience in designing algorithms.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research topics include utilizing deep learning for session-based (sequential) recommendations, evaluation of recommender systems, context-aware tensor factorization on implicit feedback data, and more recently counterfactual learning. I was one of the pioneers of deep learning technology for recommender systems and contributed to evangelizing it in the research community.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+For the majority of my career, I have been working on algorithms for recommender systems in the industry. Therefore I have vast experience in a wide variety of recommender systems related topics, and my algorithms are designed with efficient resource utilization, scalability and fast training/inference in mind. Moreover, I have been frequently involved in other aspects of the business - beside research and coding - from strategy to product design to leading innovation, allowing me to see the big picture. I have been leading small machine learning or data science focused teams since 2015.
+
+I received my summa cum laude PhD / MSc / BSc from the Budapest University of Technology.
